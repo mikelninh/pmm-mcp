@@ -1,0 +1,87 @@
+{
+  "_doc": "Bundesrechnungshof findings — selected Bemerkungen und Sonderberichte that point to systemic spending issues. Ported from the Public Money Mirror investigative_tools stub. Each entry cites the official BRH publication. New findings can be added via PR.",
+  "schema_version": "1.0",
+  "source": "https://www.bundesrechnungshof.de",
+  "findings": [
+    {
+      "id": "brh-2024-beratung",
+      "year": 2024,
+      "keyword": "beratung",
+      "title": "Externe Beratungsleistungen des Bundes",
+      "finding": "Der Bundesrechnungshof beanstandet erneut den Umfang externer Beratungsleistungen (rd. 1,2 Mrd. EUR p.a.). Vergaben an McKinsey, PwC und Roland Berger erfolgten teils ohne ausreichende Wettbewerbsprüfung.",
+      "source_url": "https://www.bundesrechnungshof.de/de/veroeffentlichungen/produkte/bemerkungen-jahresberichte",
+      "severity": "high",
+      "estimated_savings_eur": 200000000
+    },
+    {
+      "id": "brh-2023-bamf",
+      "year": 2023,
+      "keyword": "asyl",
+      "title": "BAMF — Verfahrenskosten und Personalbedarf",
+      "finding": "BRH kritisiert anhaltend lange Asylverfahren und hohe Pro-Fall-Kosten (durchschnittlich ca. 1.800 EUR/Verfahren), bei großen Streuungen zwischen Bundesländern.",
+      "source_url": "https://www.bundesrechnungshof.de/de/veroeffentlichungen/produkte/bemerkungen-jahresberichte",
+      "severity": "medium",
+      "estimated_savings_eur": null
+    },
+    {
+      "id": "brh-2024-klima",
+      "year": 2024,
+      "keyword": "klima",
+      "title": "Klima- und Transformationsfonds (KTF)",
+      "finding": "Mittelabflüsse aus dem KTF erfolgen verzögert; Wirkungskontrolle der Förderprogramme unzureichend. Empfehlung: verpflichtende CO2-Wirkungsmessung pro Förderbescheid.",
+      "source_url": "https://www.bundesrechnungshof.de/de/veroeffentlichungen/produkte/sonderberichte",
+      "severity": "high",
+      "estimated_savings_eur": null
+    },
+    {
+      "id": "brh-2022-it-beratung",
+      "year": 2022,
+      "keyword": "beratung",
+      "title": "IT-Beratung in Bundesministerien",
+      "finding": "Übermäßiger Einsatz externer IT-Berater bei gleichzeitigem Knowhow-Verlust im eigenen Personalkörper.",
+      "source_url": "https://www.bundesrechnungshof.de/de/veroeffentlichungen/produkte/bemerkungen-jahresberichte",
+      "severity": "medium",
+      "estimated_savings_eur": null
+    },
+    {
+      "id": "brh-2023-klima-eauto",
+      "year": 2023,
+      "keyword": "klima",
+      "title": "Umweltbonus für Elektrofahrzeuge",
+      "finding": "Mitnahmeeffekte beim Umweltbonus; tatsächliche Lenkungswirkung auf den Pkw-Mix bleibt hinter Erwartungen zurück.",
+      "source_url": "https://www.bundesrechnungshof.de/de/veroeffentlichungen/produkte/sonderberichte",
+      "severity": "medium",
+      "estimated_savings_eur": 800000000
+    },
+    {
+      "id": "brh-2023-bw-beschaffung",
+      "year": 2023,
+      "keyword": "verteidigung",
+      "title": "Beschaffung der Bundeswehr — Sondervermögen",
+      "finding": "Vergaben aus dem Sondervermögen Bundeswehr erfolgten unter erheblichem Zeitdruck mit teils unzureichender Wirtschaftlichkeitsprüfung. BRH fordert nachträgliche Auditierung.",
+      "source_url": "https://www.bundesrechnungshof.de/de/veroeffentlichungen/produkte/sonderberichte",
+      "severity": "high",
+      "estimated_savings_eur": null
+    },
+    {
+      "id": "brh-2024-buergergeld",
+      "year": 2024,
+      "keyword": "soziales",
+      "title": "Bürgergeld — Sanktionspraxis und Vermittlung",
+      "finding": "BRH bemängelt uneinheitliche Sanktionspraxis der Jobcenter und unzureichende Vermittlungsquote in den ersten Arbeitsmarkt.",
+      "source_url": "https://www.bundesrechnungshof.de/de/veroeffentlichungen/produkte/bemerkungen-jahresberichte",
+      "severity": "medium",
+      "estimated_savings_eur": null
+    },
+    {
+      "id": "brh-2024-bahn-infra",
+      "year": 2024,
+      "keyword": "verkehr",
+      "title": "Schieneninfrastruktur — DB Netz AG",
+      "finding": "Investitionen in die Schieneninfrastruktur erreichen nicht die geplante Wirkung; Verzögerungen und Kostensteigerungen bei Großprojekten (z.B. Stuttgart 21, Korridor Nord-Süd).",
+      "source_url": "https://www.bundesrechnungshof.de/de/veroeffentlichungen/produkte/sonderberichte",
+      "severity": "high",
+      "estimated_savings_eur": null
+    }
+  ]
+}

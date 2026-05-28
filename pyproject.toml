@@ -1,0 +1,32 @@
+[project]
+name = "pmm-mcp"
+version = "0.1.0"
+description = "Public Money Mirror as MCP — citizen-level Bundeshaushalt queries + anomaly heuristics + curated Bundesrechnungshof findings, exposed as Model Context Protocol tools."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Mikel" }]
+license = { text = "MIT" }
+
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.scripts]
+pmm-mcp = "pmm_mcp.server:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pmm_mcp*"]
+
+[tool.setuptools.package-data]
+pmm_mcp = ["data/*.json"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

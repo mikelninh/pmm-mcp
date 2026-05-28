@@ -1,0 +1,55 @@
+{
+  "_doc": "Bundeshaushalt summary per Einzelplan (ministry budget), based on the published Bundeshaushaltsplan for each fiscal year. Values in EUR. Source: Bundesministerium der Finanzen, https://www.bundeshaushalt.de. These are top-level Einzelplan totals — for line-item detail use the full Public Money Mirror application (this MCP exposes the citizen-level overview only). Updated manually; daily-sync against bundeshaushalt.de is the Phase-1b roadmap item, mirroring gitlaw-mcp's freshness pattern.",
+  "schema_version": "1.0",
+  "source": "https://www.bundeshaushalt.de",
+  "fiscal_years": {
+    "2024": {
+      "total_eur": 476500000000,
+      "currency": "EUR",
+      "as_of": "2024-01-01",
+      "einzelplaene": {
+        "Arbeit und Soziales":                 177000000000,
+        "Verteidigung":                          51800000000,
+        "Bundesschuld (Zinsen + Tilgung)":       37000000000,
+        "Verkehr und digitale Infrastruktur":    38600000000,
+        "Bildung und Forschung":                 21500000000,
+        "Inneres und Heimat":                    13700000000,
+        "Familie, Senioren, Frauen, Jugend":     14300000000,
+        "Gesundheit":                            16400000000,
+        "Wirtschaft und Klimaschutz":            14400000000,
+        "Ernährung und Landwirtschaft":           7100000000,
+        "Auswärtiges Amt":                        7000000000,
+        "Wohnen, Stadtentwicklung, Bauwesen":     7400000000,
+        "Umwelt, Naturschutz, Reaktorsicherheit": 2700000000,
+        "Wirtschaftliche Zusammenarbeit":        12200000000,
+        "Justiz":                                 1000000000,
+        "Allgemeine Finanzverwaltung":           50400000000,
+        "Bundespräsident, Bundestag, Bundesrat":  4000000000
+      }
+    },
+    "2025": {
+      "total_eur": 488700000000,
+      "currency": "EUR",
+      "as_of": "2025-01-01",
+      "einzelplaene": {
+        "Arbeit und Soziales":                 184000000000,
+        "Verteidigung":                          53300000000,
+        "Bundesschuld (Zinsen + Tilgung)":       41900000000,
+        "Verkehr und digitale Infrastruktur":    44600000000,
+        "Bildung und Forschung":                 21500000000,
+        "Inneres und Heimat":                    13800000000,
+        "Familie, Senioren, Frauen, Jugend":     14500000000,
+        "Gesundheit":                            16100000000,
+        "Wirtschaft und Klimaschutz":            10700000000,
+        "Ernährung und Landwirtschaft":           7500000000,
+        "Auswärtiges Amt":                        6500000000,
+        "Wohnen, Stadtentwicklung, Bauwesen":     6800000000,
+        "Umwelt, Naturschutz, Reaktorsicherheit": 2800000000,
+        "Wirtschaftliche Zusammenarbeit":        11200000000,
+        "Justiz":                                 1100000000,
+        "Allgemeine Finanzverwaltung":           48200000000,
+        "Bundespräsident, Bundestag, Bundesrat":  4200000000
+      }
+    }
+  }
+}
