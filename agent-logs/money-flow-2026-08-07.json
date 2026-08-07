@@ -1,0 +1,34 @@
+{
+  "date": "2026-08-07",
+  "findings": 7,
+  "total_amount_eur": "~2.63 Mrd. EUR an konkret kritisierten Einzelposten (855 Mio. Moselschleusen + 35 Mio. Zoll-Smartphones + 20 Mio. Fregatten + 1.300 Mio. Netze des Bundes + 120 Mio. Klimaschutzinitiative + 300 Mio./Jahr Luftfahrtforschung); makro: 800+ Mrd. EUR neue Kredite 2025-2029, Schuldenstand 2,7 Bio. EUR bis 2029",
+  "highlights": [
+    "BRH/BWV (20.04.2026): gefaehrliche Verschuldungsdynamik - Ausgaben 2019-2026 +47% (357 -> 524 Mrd. EUR), inkl. Sondervermoegen +75% (362 -> 633 Mrd. EUR), Einnahmen nur +20%",
+    "Zinsausgaben verdoppeln sich 2026-2029 auf 66,5 Mrd. EUR = 11,6% des Bundeshaushalts",
+    "Investitionsquote sinkt 2027-2029 im Soll auf 8,1% - Sondervermoegen ersetzt statt ergaenzt Investitionen",
+    "Moselschleusen-Ausbau 855 Mio. EUR laut BRH weder notwendig noch wirtschaftlich (BMV)",
+    "35 Mio. EUR fuer 17.000 unbrauchbare Zoll-Spezial-Smartphones (BMF)",
+    "Mind. 20 Mio. EUR Mehrkosten bei Fregatten-Modernisierung ohne oeffentliche Ausschreibung (BMVg)",
+    "IT-Projekt 'Netze des Bundes' 1,3 Mrd. EUR im 'Blindflug' ohne Grundplanung",
+    "120 Mio. EUR EU-Klimaschutzinitiative ohne nachweisbare Wirkung; 300 Mio. EUR/Jahr Luftfahrtforschung mit unklaren Zielen"
+  ],
+  "sources": [
+    "https://www.bundesrechnungshof.de/SharedDocs/Pressemitteilungen/DE/2026/bwv_eckwerte.html",
+    "https://www.tagesschau.de/wirtschaft/bundesrechnungshof-vorwuerfe-100.html",
+    "https://www.bundesrechnungshof.de/SharedDocs/Kurzmeldungen/DE/2025/einzelplananalyse_2026/epa-2026-kurzmeldung.html",
+    "https://www.tagesschau.de/inland/innenpolitik/bundesrechnungshof-gutachten-etat-2026-100.html",
+    "https://www.bundesregierung.de/breg-de/aktuelles/bundeshaushalt-2026-2374030",
+    "https://www.bundeshaushalt.de/"
+  ],
+  "actions_taken": [
+    "fresh clone of mikelninh/pmm-mcp",
+    "created branch agent/money-flow-2026-08-07",
+    "researched BRH press releases, BRH Bemerkungen coverage, Bundeshaushalt 2026/2027 figures",
+    "wrote agent-digests/money-flow-2026-08-07.md",
+    "wrote agent-logs/money-flow-2026-08-07.json",
+    "proposed 4 anomaly heuristics for pmm-mcp (zinslast-ratio, investitionsquote, schattenhaushalt-anteil, vergabe-ohne-ausschreibung)",
+    "committed and pushed branch, opened PR (no merge - human review only)"
+  ],
+  "repo": "pmm-mcp",
+  "branch": "agent/money-flow-2026-08-07"
+}
